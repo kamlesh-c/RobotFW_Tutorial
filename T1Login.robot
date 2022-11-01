@@ -16,6 +16,7 @@ ${ENVIRONMENT_VARIABLE}    %{PATH=Default value}
 
 *** Test Cases ***
 Test_case
+    # This test cases for login to Facebook site using username passwrod
     Open Browser    https://www.facebook.com/login/   chrome
 	Maximize Browser Window
 	Input text      ${username}   //*[@id="email"]
