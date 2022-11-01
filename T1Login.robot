@@ -23,3 +23,12 @@ Test_case
 	Input passwrod  ${passwrod}   //*[@id="pass"]
 	Click element   //*[@id="loginbutton"]
 	Close Browser  
+	
+Test_case 2
+     # New loin for IRCTC
+	 Open Browser https://www.irctc.co.in/nget/train-search   chrome
+	 Maximize Browser Window
+	Input text      ${username}   //*[@id="email"]
+	Input passwrod  ${passwrod}   //*[@id="pass"]
+	Click element   //*[@id="loginbutton"]
+	Close Browser  
