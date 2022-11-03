@@ -20,6 +20,10 @@ Test_case
 	Sleep 10
     User_keyword	Cat   DOG
 	Close Browser  
+	#IF statement 
+	IF  '2'== '2'
+	     Log to console    IF statement is correct 
+    END
 
 
 
